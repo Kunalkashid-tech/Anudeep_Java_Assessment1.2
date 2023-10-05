@@ -2,12 +2,12 @@
 
 package Anudeep_Java_Ass2.java;
 
-public class Q6__Point_Comparing_Objects_If_Overlapping {
+public class Q7__Point_Comparing_Objects_If_Overlapping {
 
 	int x, y;
 	
 	// creating parameterized constructor.
-	public Q6__Point_Comparing_Objects_If_Overlapping(int x, int y) {
+	public Q7__Point_Comparing_Objects_If_Overlapping(int x, int y) {
 		
 	// using this keyword	
 	this.x = x;
@@ -36,8 +36,8 @@ public class Q6__Point_Comparing_Objects_If_Overlapping {
 	}
 	public static void main(String[] args) {
 		
-		Q6__Point_Comparing_Objects_If_Overlapping p1 = new Q6__Point_Comparing_Objects_If_Overlapping(1,2);
-		Q6__Point_Comparing_Objects_If_Overlapping p2 = new Q6__Point_Comparing_Objects_If_Overlapping(4,1);
+		Q7__Point_Comparing_Objects_If_Overlapping p1 = new Q7__Point_Comparing_Objects_If_Overlapping(1,2);
+		Q7__Point_Comparing_Objects_If_Overlapping p2 = new Q7__Point_Comparing_Objects_If_Overlapping(4,1);
 	
 		// calling methods.
 		p1.setX(1);
