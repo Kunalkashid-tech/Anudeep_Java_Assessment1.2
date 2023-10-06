@@ -6,10 +6,13 @@ public class Q7__Point_Comparing_Objects_If_Overlapping {
 
 	int x, y;
 	
+	// create default constructor.
 	public Q7__Point_Comparing_Objects_If_Overlapping() {
 		
-		x = 0;
-		y = 0;
+	// set value to 0.	
+	x = 0;
+	y = 0;
+	
 	}
 	
 	// creating parameterized constructor.
@@ -23,46 +26,52 @@ public class Q7__Point_Comparing_Objects_If_Overlapping {
 	
 	// creating method setX.
 	public void setX(int x) {
-		 
+	
+	// use this keyword.	
 	this.x = x;
 	
 	}
 	
 	// creating method setY.
 	public void setY(int y) {
-		
+	
+	// use this keyword.
 	this.y = y;
 	
 	}
 	
 	public void setXY(int x, int y) {
-		
+	
+	// use this keyword.	
 	this.x = x;
 	this.y = y;
 		
 	}
 	
+	// create method to return value of x.
 	public int getX() {
 		
 		return x;
 	}
 	
+	// create method to return value of y.
 	public int getY() {
 		
 		return y;
 	}
 	
+	// creating method to return overlapping points.
 	public boolean IsOverlapping(Q7__Point_Comparing_Objects_If_Overlapping pointlap) {
 		
 		return this.x == pointlap.x && this.y == pointlap.y;
 	}
 	public static void main(String[] args) {
 		
+		// creating constructor objects.
 		Q7__Point_Comparing_Objects_If_Overlapping p1 = new Q7__Point_Comparing_Objects_If_Overlapping(1,2);
 		Q7__Point_Comparing_Objects_If_Overlapping p2 = new Q7__Point_Comparing_Objects_If_Overlapping(4,1);
 	
-		// calling methods.
-		
+        // creating boolean variable to check overlapping points.	
 		boolean overlapping = p1.IsOverlapping(p2);
 		
 		System.out.println("Point1 : "+p1.getX()+" , "+p1.getY());
